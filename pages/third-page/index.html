@@ -38,28 +38,28 @@
             <form class="form-cost" name="cost" method="get" action="http://127.0.0.1:5500/pages/third%20page/index.html">
                 <legend>Cost</legend>
                     <p>
-                        <label for="cost-input">0</label>
-                        <input type="range" name="cost" id="cost-input"
+                        <label class="label-range" for="cost-input">0</label>
+                        <input class="input-range" type="range" name="cost" id="cost-input"
                             min="0" max="500" value="200" step="10">
                         <label for="cost-input">500</label>
                     </p>
                 <fieldset>
                     <legend>Color</legend>
                     <ul>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="black">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="black">
                             Black
                         </label></li>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="blue">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="blue">
                             Blue
                         </label></li>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="green">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="green">
                             Green
                         </label></li>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="white">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="white">
                             White
                         </label></li>
                     </ul>
@@ -67,12 +67,12 @@
                 <fieldset>
                     <legend>Delivery</legend>
                     <ul>
-                        <li><label>
-                            <input type="radio" name="deliveries" value="free">
+                        <li><label class="label-radio-delivery">
+                            <input class="input-radio-delivery" type="radio" name="deliveries" value="free">
                             Free shipping
                         </label></li>
-                        <li><label>
-                            <input type="radio" name="deliveries" value="fast">
+                        <li><label class="label-radio-delivery">
+                            <input class="input-radio-delivery" type="radio" name="deliveries" value="fast">
                             Fast shipping
                         </label></li>
                     </ul>
@@ -80,22 +80,31 @@
                 <fieldset>
                     <legend>Amount</legend>
                     <ul>
-                        <li><label>
-                            <input type="radio" name="amounts" value="0to5">
+                        <li><label class="label-radio-amount">
+                            <input class="input-radio-amount" type="radio" name="amount" value="0to5">
                             0-5
                         </label></li>
-                        <li><label>
-                            <input type="radio" name="amounts" value="10to20">
+                        <li><label class="label-radio-amount">
+                            <input class="input-radio-amount" type="radio" name="amount" value="10to20">
                             10-20
                         </label></li>
-                        <li><label>
-                            <input type="radio" name="amounts" value="20to50">
+                        <li><label class="label-radio-amount">
+                            <input class="input-radio-amount" type="radio" name="amount" value="20to50">
                             20-50
                         </label></li>
                     </ul>
                 </fieldset>
                 <button type="submit">APPLY</button>
             </form>
+        </section>
+        <section class="products">
+            <h3 class="hidden">Products</h3>
+            <ul class="products-list">
+                <li><img src="/images/shark.png" alt="Shark chair">
+                    <a href="#">SHARKY BEAN BAG CHAIR COVER</a><p>$60.00 USD</p>
+
+                </li>
+            </ul>
         </section>
     </main>
     <article class="about-us">
