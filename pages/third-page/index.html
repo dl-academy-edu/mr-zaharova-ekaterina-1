@@ -36,13 +36,16 @@
             </ul>
         <section class="form">
             <form class="form-cost" name="cost" method="get" action="http://127.0.0.1:5500/pages/third%20page/index.html">
-                <legend>Cost</legend>
-                    <p>
-                        <label class="label-range" for="cost-input">0</label>
-                        <input class="input-range" type="range" name="cost" id="cost-input"
-                            min="0" max="500" value="200" step="10">
-                        <label for="cost-input">500</label>
-                    </p>
+                <fieldset>
+                    <legend class="">Cost</legend>
+                    <label class="label-cost">
+                        <input type="range" min="0" max="500" value="100"/>
+                        <span class="cost">
+                        <span>0</span>
+                        <span>500</span>
+                        </span>
+                    </label>
+                </fieldset>
                 <fieldset>
                     <legend>Color</legend>
                     <ul>
