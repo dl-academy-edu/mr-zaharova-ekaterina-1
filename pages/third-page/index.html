@@ -36,30 +36,33 @@
             </ul>
         <section class="form">
             <form class="form-cost" name="cost" method="get" action="http://127.0.0.1:5500/pages/third%20page/index.html">
-                <legend>Cost</legend>
-                    <p>
-                        <label for="cost-input">0</label>
-                        <input type="range" name="cost" id="cost-input"
-                            min="0" max="500" value="200" step="10">
-                        <label for="cost-input">500</label>
-                    </p>
+                <fieldset>
+                    <legend class="">Cost</legend>
+                    <label class="label-cost">
+                        <input type="range" min="0" max="500" value="100"/>
+                        <span class="cost">
+                        <span>0</span>
+                        <span>500</span>
+                        </span>
+                    </label>
+                </fieldset>
                 <fieldset>
                     <legend>Color</legend>
                     <ul>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="black">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="black">
                             Black
                         </label></li>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="blue">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="blue">
                             Blue
                         </label></li>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="green">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="green">
                             Green
                         </label></li>
-                        <li><label>
-                            <input type="checkbox" name="colors" value="white">
+                        <li><label class="label-checkbox">
+                            <input class="input-checkbox" type="checkbox" name="colors" value="white">
                             White
                         </label></li>
                     </ul>
@@ -67,12 +70,12 @@
                 <fieldset>
                     <legend>Delivery</legend>
                     <ul>
-                        <li><label>
-                            <input type="radio" name="deliveries" value="free">
+                        <li><label class="label-radio-delivery">
+                            <input class="input-radio-delivery" type="radio" name="deliveries" value="free">
                             Free shipping
                         </label></li>
-                        <li><label>
-                            <input type="radio" name="deliveries" value="fast">
+                        <li><label class="label-radio-delivery">
+                            <input class="input-radio-delivery" type="radio" name="deliveries" value="fast">
                             Fast shipping
                         </label></li>
                     </ul>
@@ -80,22 +83,71 @@
                 <fieldset>
                     <legend>Amount</legend>
                     <ul>
-                        <li><label>
-                            <input type="radio" name="amounts" value="0to5">
+                        <li><label class="label-radio-amount">
+                            <input class="input-radio-amount" type="radio" name="amount" value="0to5">
                             0-5
                         </label></li>
-                        <li><label>
-                            <input type="radio" name="amounts" value="10to20">
+                        <li><label class="label-radio-amount">
+                            <input class="input-radio-amount" type="radio" name="amount" value="10to20">
                             10-20
                         </label></li>
-                        <li><label>
-                            <input type="radio" name="amounts" value="20to50">
+                        <li><label class="label-radio-amount">
+                            <input class="input-radio-amount" type="radio" name="amount" value="20to50">
                             20-50
                         </label></li>
                     </ul>
                 </fieldset>
                 <button type="submit">APPLY</button>
             </form>
+        </section>
+        <section class="products">
+            <h3 class="hidden">Products</h3>
+            <ul class="products-list">
+                <li>
+                    <a href="#"><img src="/images/shark.png" alt="Shark chair">
+                        <p>SHARKY BEAN BAG CHAIR COVER</p>
+                        <span>$60.00 USD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="/images/rings.png" alt="Deco frames">
+                        <p>BRASS DECO FRAMES</p>
+                        <span>$66.00 USD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="/images/apron.png" alt="Apron">
+                        <p>CIBO FULL APRON</p>
+                        <span>$60.00 USD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="/images/toy.png" alt="Gumball machine">
+                        <p>GATCHA GATCHA GUMBALL MACHINE</p>
+                        <span>$56.00 USD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="/images/candle.png" alt="Candle">
+                        <p>CHRISTMAS ADVENT SCENTED CANDLE</p>
+                        <span>$29.00 USD</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="/images/tea-light.png" alt="Tea light">
+                        <p>TANGLE SPINNING TEA LIGHT</p>
+                        <span>$56.00 USD</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li><button><img src="/images/left-grey.svg" alt="left"></button></li>
+                <li><a property="url"><span property="number">1</span></a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><button><img src="/images/right-grey.svg" alt="left"></button></li>
+            </ul>
         </section>
     </main>
     <article class="about-us">
@@ -133,7 +185,12 @@
         </section>
         <h4 class="footer">Connect</h4>
         <div class="subscribe-form">
-            <form action="URL"></form>
+            <form action="URL">
+                <label>
+                    <input type="email" name="email" placeholder="Email"> 
+                </label>
+                <button type="submit">Join</button>
+            </form>
         </div>
         <ul class="footer-socialnetworks">
             <li><a href="#">facebook</a></li>
