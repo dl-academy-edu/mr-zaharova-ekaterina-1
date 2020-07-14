@@ -1,0 +1,371 @@
+/* Header */
+
+.header-nav-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #1E0606; 
+}
+
+.header-list {
+    list-style-type: none;
+}
+
+/* Poster */
+
+.poster {
+    background-color: #EEE4DB;
+    width: 1180px;
+    height: 411px;
+    left: 110px;
+    top: 231px;
+}
+
+.poster-img {
+    position: absolute;
+    width: 635.49px;
+    height: 461px;
+    left: 555px;
+    top: 142px;
+    background-image: url(/images/alian.jpg);
+}
+
+.poster-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 110%;
+    
+    color: #1E0606;
+}
+
+.poster-header {
+    font-family: Crimson Text;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #1E0606;
+}
+
+.poster-button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    background-color: #000000;
+
+    color: #FFFFFF;
+
+}
+
+.poster-number{
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.poster-list-slider {
+    list-style-type: none;
+}
+
+.info-header {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    background-color: #C29974;;
+    color: #FFFFFF;
+}
+
+/* Products */
+
+.products-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.products-list {
+    list-style-type: none;
+}
+
+.one {
+    background: #DBE4DB;
+}
+
+.product-card-text {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
+}
+
+.addiction-left {
+    width: 37px;
+    height: 37px;
+    left: 110px;
+    top: 1112px;
+    
+    background-color: rgba(112, 187, 220, 0.2);
+}
+
+.addiction-right {
+    width: 37px;
+    height: 37px;
+    left: 153px;
+    top: 1112px;
+
+    background-color: rgba(112, 187, 220, 0.2);
+}
+
+.addiction-p {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+/* Delivery */
+
+.delivery-list {
+    list-style-type: none;
+}
+
+.delivery-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+
+    color: #1E0606;
+}
+
+.delivery-button {
+    font-family: Crimson Text;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+
+    background-color: rgba(112, 187, 220, 0.2);
+    color: #1E0606;
+}
+
+.delivery-guarantee {
+    font-family: Crimson Text;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    background-color: #FFFFFF;
+    color: #1E0606;
+}
+
+.delivery-credit {
+    font-family: Crimson Text;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    background-color: #FFFFFF;
+    color: #1E0606;
+}
+
+.delivery-text {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+.button {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+/* Partners */
+
+.partners-list {
+    list-style-type: none;
+}
+
+/* About us */
+
+.about-us-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+
+    color: #1E0606
+}
+
+.about-us {
+    background-color: #E1F0F7;
+}
+
+.about-us-header {
+    font-family: Crimson Text;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+
+    color: #1E0606
+}
+
+.article {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #1E0606;
+}
+
+.map {
+    background-color: #E1F0F7;
+}
+
+.map-contuct-us {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+
+    text-transform: uppercase;
+
+    color: #1E0606
+}
+
+/* Footer */
+
+.footer {
+    background: #434343;
+}
+
+.footer-title {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #AAAAAA;
+}
+
+.footer-nav-list {
+    list-style-type: none;
+}
+
+.footer-nav-link {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.footer-info-list {
+    list-style-type: none;
+}
+
+.footer-info-link {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+/* Footer form */
+
+.email-form {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-items: center;
+
+    background-color: #666666;
+    color: #EBEBEB;
+}
+
+.footer-socialnetworks {
+    list-style-type: none;
+}
+
+.footer-rating-title {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.footer-rating-list {
+    list-style-type: none;
+}
+
+.img-footer {
+    background: #434343;
+}
+
+.footer-text {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.footer-company {
+    font-family: Open Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    align-items: center;
+
+    color: #A2A2A2;
+}
