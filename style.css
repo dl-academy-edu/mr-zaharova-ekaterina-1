@@ -14,23 +14,21 @@
     list-style-type: none;
 }
 
+.header-button {
+    background-color: #fff;
+    border: none;
+}
+
 /* Poster */
 
 .poster {
     background-color: #EEE4DB;
-    width: 1180px;
-    height: 411px;
-    left: 110px;
-    top: 231px;
 }
 
 .poster-img {
-    position: absolute;
-    width: 635.49px;
-    height: 461px;
-    left: 555px;
-    top: 142px;
-    background-image: url(/images/alian.jpg);
+    background-image: url(/images/alian.png);    
+    background-repeat: no-repeat;
+    background-position: center
 }
 
 .poster-title {
@@ -75,6 +73,11 @@
     list-style-type: none;
 }
 
+.poster-slider {
+    border: none;
+    background-color: #EEE4DB;
+}
+
 .info-header {
     font-family: Open Sans;
     font-weight: bold;
@@ -103,8 +106,20 @@
     list-style-type: none;
 }
 
-.one {
-    background: #DBE4DB;
+.product-card-1 {
+    background-color: #DBE4DB;
+}
+
+.product-card-2 {
+    background-color: rgba(186, 142, 107, 0.3);
+}
+
+.product-card-3 {
+    background-color: #F8F2DA;
+}
+
+.product-card-4 {
+    background-color: rgba(9, 3, 79, 0.17);
 }
 
 .product-card-text {
@@ -126,6 +141,7 @@
     top: 1112px;
     
     background-color: rgba(112, 187, 220, 0.2);
+    border: none;
 }
 
 .addiction-right {
@@ -135,6 +151,7 @@
     top: 1112px;
 
     background-color: rgba(112, 187, 220, 0.2);
+    border: none;
 }
 
 .addiction-p {
@@ -170,6 +187,7 @@
 
     background-color: rgba(112, 187, 220, 0.2);
     color: #1E0606;
+    border: none;
 }
 
 .delivery-guarantee {
@@ -180,6 +198,7 @@
 
     background-color: #FFFFFF;
     color: #1E0606;
+    border: none;
 }
 
 .delivery-credit {
@@ -190,6 +209,7 @@
 
     background-color: #FFFFFF;
     color: #1E0606;
+    border: none;
 }
 
 .delivery-text {
@@ -346,6 +366,7 @@
 
 .img-footer {
     background: #434343;
+    border: none;
 }
 
 .footer-text {
